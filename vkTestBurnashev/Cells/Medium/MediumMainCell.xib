@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="233" id="KGk-i7-Jjw" customClass="MediumMainCell" customModule="vkTestBurnashev" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="633" height="233"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="47" y="0.0" width="539" height="233"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currency" translatesAutoresizingMaskIntoConstraints="NO" id="6kx-Hh-OnY">
+                        <rect key="frame" x="16" y="16" width="201" height="201"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="6kx-Hh-OnY" secondAttribute="height" multiplier="1:1" id="2xb-Cb-2ZM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2xb-Cb-2ZM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="2xb-Cb-2ZM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="2xb-Cb-2ZM"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcS-Yw-dgz">
+                        <rect key="frame" x="233" y="97.333333333333329" width="384" height="38.333333333333329"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="6kx-Hh-OnY" secondAttribute="bottom" constant="16" id="0uL-gQ-oOS"/>
+                    <constraint firstAttribute="trailing" secondItem="6kx-Hh-OnY" secondAttribute="trailing" constant="16" id="4LI-5s-YZg"/>
+                    <constraint firstAttribute="trailing" secondItem="OcS-Yw-dgz" secondAttribute="trailing" constant="16" id="IJE-Dt-5mL"/>
+                    <constraint firstItem="OcS-Yw-dgz" firstAttribute="centerY" secondItem="6kx-Hh-OnY" secondAttribute="centerY" id="XEy-Ze-tTM"/>
+                    <constraint firstItem="OcS-Yw-dgz" firstAttribute="leading" secondItem="6kx-Hh-OnY" secondAttribute="trailing" constant="16" id="atG-nF-cxp"/>
+                    <constraint firstItem="6kx-Hh-OnY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="lqp-fW-KvW"/>
+                    <constraint firstItem="6kx-Hh-OnY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="puL-C5-Tii"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="OcS-Yw-dgz"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=compact-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="OcS-Yw-dgz"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="4LI-5s-YZg"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=compact-widthClass=regular">
+                    <mask key="subviews">
+                        <include reference="OcS-Yw-dgz"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="4LI-5s-YZg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentViewCell" destination="H2p-sc-9uM" id="8nN-nE-5hS"/>
+                <outlet property="imageCell" destination="6kx-Hh-OnY" id="gig-2s-tXS"/>
+                <outlet property="label" destination="OcS-Yw-dgz" id="egn-Qi-o8w"/>
+            </connections>
+            <point key="canvasLocation" x="280.15267175572518" y="52.464788732394368"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="currency" width="1024" height="1024"/>
+    </resources>
+</document>

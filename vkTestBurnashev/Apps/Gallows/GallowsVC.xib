@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GallowsVC" customModule="vkTestBurnashev" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10S-Hq-OHD">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5l3-Z6-s8G">
+                            <rect key="frame" x="141" y="279" width="110" height="200"/>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="5l3-Z6-s8G" secondAttribute="bottom" constant="280" id="O1k-FO-Dc4"/>
+                        <constraint firstAttribute="trailing" secondItem="5l3-Z6-s8G" secondAttribute="trailing" constant="142" id="Qjg-9e-wdd"/>
+                        <constraint firstItem="5l3-Z6-s8G" firstAttribute="top" secondItem="10S-Hq-OHD" secondAttribute="top" constant="279" id="ejU-09-qcA"/>
+                        <constraint firstItem="5l3-Z6-s8G" firstAttribute="leading" secondItem="10S-Hq-OHD" secondAttribute="leading" constant="141" id="ufA-kE-KWL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="10S-Hq-OHD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="8GI-Ra-pyK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="10S-Hq-OHD" secondAttribute="bottom" id="es3-5A-Djg"/>
+                <constraint firstItem="10S-Hq-OHD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rOP-Y4-3F2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="10S-Hq-OHD" secondAttribute="trailing" id="yXq-T1-K1g"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-12"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
