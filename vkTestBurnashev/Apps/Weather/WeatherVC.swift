@@ -137,7 +137,7 @@ extension WeatherVC {
                 preferredStyle: .alert)
             
             alert.addTextField{ (textField : UITextField!) -> Void in
-                textField.placeholder = "Город"
+                textField.placeholder = NSLocalizedString("city", comment: "")
             }
             
             alert.addAction(UIAlertAction(

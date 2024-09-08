@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3CFACCD5DD33016E87116B8 /* Pods_vkTestBurnashev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C7E1193BF5DAF68E35ECD1 /* Pods_vkTestBurnashev.framework */; };
+		DD9AABDB2C8C7A93009C42BD /* WeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9AABDA2C8C7A93009C42BD /* WeatherList.swift */; };
 		DDEE5FD52C8A1F4700EF3A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FD42C8A1F4700EF3A9D /* AppDelegate.swift */; };
 		DDEE5FD72C8A1F4700EF3A9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FD62C8A1F4700EF3A9D /* SceneDelegate.swift */; };
 		DDEE5FD92C8A1F4700EF3A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FD82C8A1F4700EF3A9D /* ViewController.swift */; };
 		DDEE5FDC2C8A1F4700EF3A9D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DDEE5FDB2C8A1F4700EF3A9D /* Base */; };
 		DDEE5FDE2C8A1F4800EF3A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEE5FDD2C8A1F4800EF3A9D /* Assets.xcassets */; };
 		DDEE5FE12C8A1F4800EF3A9D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DDEE5FE02C8A1F4800EF3A9D /* Base */; };
+		DDEE5FEB2C8A23C300EF3A9D /* SmallMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FE92C8A23C300EF3A9D /* SmallMainCell.swift */; };
+		DDEE5FEC2C8A23C300EF3A9D /* SmallMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEE5FEA2C8A23C300EF3A9D /* SmallMainCell.xib */; };
+		DDEE5FEF2C8A29A700EF3A9D /* AppsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FEE2C8A29A700EF3A9D /* AppsList.swift */; };
+		DDEE5FF32C8A2D2800EF3A9D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DDEE5FF22C8A2D2800EF3A9D /* Localizable.xcstrings */; };
+		DDEE5FF72C8A339000EF3A9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FF62C8A339000EF3A9D /* Extensions.swift */; };
+		DDEE60012C8A3FE100EF3A9D /* MediumMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE5FFF2C8A3FE100EF3A9D /* MediumMainCell.swift */; };
+		DDEE60022C8A3FE100EF3A9D /* MediumMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEE60002C8A3FE100EF3A9D /* MediumMainCell.xib */; };
+		DDEE60052C8A44ED00EF3A9D /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE60032C8A44ED00EF3A9D /* WeatherVC.swift */; };
+		DDEE600B2C8A451A00EF3A9D /* GallowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE60092C8A451A00EF3A9D /* GallowsVC.swift */; };
+		DDEE600F2C8A452F00EF3A9D /* CurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE600D2C8A452F00EF3A9D /* CurrencyVC.swift */; };
+		DDEE60122C8C134500EF3A9D /* RatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE60112C8C134500EF3A9D /* RatesManager.swift */; };
+		DDEE60142C8C240900EF3A9D /* ResultCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE60132C8C240900EF3A9D /* ResultCurrency.swift */; };
+		DDEE60182C8C2B3900EF3A9D /* CurrencyVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE60162C8C2B3900EF3A9D /* CurrencyVCTableViewCell.swift */; };
+		DDEE60192C8C2B3900EF3A9D /* CurrencyVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEE60172C8C2B3900EF3A9D /* CurrencyVCTableViewCell.xib */; };
+		DDEE60212C8C3C0D00EF3A9D /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE60202C8C3C0D00EF3A9D /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81B552DF9FBF8AA06ACFC6CF /* Pods-vkTestBurnashev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkTestBurnashev.debug.xcconfig"; path = "Target Support Files/Pods-vkTestBurnashev/Pods-vkTestBurnashev.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C7E1193BF5DAF68E35ECD1 /* Pods_vkTestBurnashev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vkTestBurnashev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA40583C5FC4BF58D6B44E51 /* Pods-vkTestBurnashev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkTestBurnashev.release.xcconfig"; path = "Target Support Files/Pods-vkTestBurnashev/Pods-vkTestBurnashev.release.xcconfig"; sourceTree = "<group>"; };
+		DD9AABDA2C8C7A93009C42BD /* WeatherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherList.swift; sourceTree = "<group>"; };
 		DDEE5FD12C8A1F4700EF3A9D /* vkTestBurnashev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkTestBurnashev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEE5FD42C8A1F4700EF3A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDEE5FD62C8A1F4700EF3A9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,21 @@
 		DDEE5FDD2C8A1F4800EF3A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDEE5FE02C8A1F4800EF3A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDEE5FE22C8A1F4800EF3A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEE5FE92C8A23C300EF3A9D /* SmallMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallMainCell.swift; sourceTree = "<group>"; };
+		DDEE5FEA2C8A23C300EF3A9D /* SmallMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallMainCell.xib; sourceTree = "<group>"; };
+		DDEE5FEE2C8A29A700EF3A9D /* AppsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsList.swift; sourceTree = "<group>"; };
+		DDEE5FF22C8A2D2800EF3A9D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DDEE5FF62C8A339000EF3A9D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DDEE5FFF2C8A3FE100EF3A9D /* MediumMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumMainCell.swift; sourceTree = "<group>"; };
+		DDEE60002C8A3FE100EF3A9D /* MediumMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediumMainCell.xib; sourceTree = "<group>"; };
+		DDEE60032C8A44ED00EF3A9D /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		DDEE60092C8A451A00EF3A9D /* GallowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallowsVC.swift; sourceTree = "<group>"; };
+		DDEE600D2C8A452F00EF3A9D /* CurrencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVC.swift; sourceTree = "<group>"; };
+		DDEE60112C8C134500EF3A9D /* RatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesManager.swift; sourceTree = "<group>"; };
+		DDEE60132C8C240900EF3A9D /* ResultCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCurrency.swift; sourceTree = "<group>"; };
+		DDEE60162C8C2B3900EF3A9D /* CurrencyVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVCTableViewCell.swift; sourceTree = "<group>"; };
+		DDEE60172C8C2B3900EF3A9D /* CurrencyVCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyVCTableViewCell.xib; sourceTree = "<group>"; };
+		DDEE60202C8C3C0D00EF3A9D /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CFACCD5DD33016E87116B8 /* Pods_vkTestBurnashev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715746B832C122AD0654DF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7E1193BF5DAF68E35ECD1 /* Pods_vkTestBurnashev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6329DA8B7998B1158ABDC8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B552DF9FBF8AA06ACFC6CF /* Pods-vkTestBurnashev.debug.xcconfig */,
+				AA40583C5FC4BF58D6B44E51 /* Pods-vkTestBurnashev.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DDEE5FC82C8A1F4700EF3A9D = {
 			isa = PBXGroup;
 			children = (
 				DDEE5FD32C8A1F4700EF3A9D /* vkTestBurnashev */,
 				DDEE5FD22C8A1F4700EF3A9D /* Products */,
+				A6329DA8B7998B1158ABDC8D /* Pods */,
+				715746B832C122AD0654DF3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +112,9 @@
 		DDEE5FD32C8A1F4700EF3A9D /* vkTestBurnashev */ = {
 			isa = PBXGroup;
 			children = (
+				DDEE5FFD2C8A3F9400EF3A9D /* Data */,
+				DDEE5FF82C8A3F4B00EF3A9D /* Apps */,
+				DDEE5FE82C8A237900EF3A9D /* Cells */,
 				DDEE5FD42C8A1F4700EF3A9D /* AppDelegate.swift */,
 				DDEE5FD62C8A1F4700EF3A9D /* SceneDelegate.swift */,
 				DDEE5FD82C8A1F4700EF3A9D /* ViewController.swift */,
@@ -63,8 +122,125 @@
 				DDEE5FDD2C8A1F4800EF3A9D /* Assets.xcassets */,
 				DDEE5FDF2C8A1F4800EF3A9D /* LaunchScreen.storyboard */,
 				DDEE5FE22C8A1F4800EF3A9D /* Info.plist */,
+				DDEE5FF22C8A2D2800EF3A9D /* Localizable.xcstrings */,
 			);
 			path = vkTestBurnashev;
+			sourceTree = "<group>";
+		};
+		DDEE5FE82C8A237900EF3A9D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE601D2C8C308500EF3A9D /* CurrencyCell */,
+				DDEE5FFE2C8A3FAD00EF3A9D /* Medium */,
+				DDEE5FFC2C8A3F8100EF3A9D /* Small */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DDEE5FED2C8A298900EF3A9D /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE5FEE2C8A29A700EF3A9D /* AppsList.swift */,
+				DD9AABDA2C8C7A93009C42BD /* WeatherList.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		DDEE5FF52C8A337B00EF3A9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE5FF62C8A339000EF3A9D /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDEE5FF82C8A3F4B00EF3A9D /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE5FFB2C8A3F6F00EF3A9D /* Weather */,
+				DDEE5FFA2C8A3F6600EF3A9D /* Currency */,
+				DDEE5FF92C8A3F5D00EF3A9D /* Gallows */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		DDEE5FF92C8A3F5D00EF3A9D /* Gallows */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE60092C8A451A00EF3A9D /* GallowsVC.swift */,
+			);
+			path = Gallows;
+			sourceTree = "<group>";
+		};
+		DDEE5FFA2C8A3F6600EF3A9D /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE601E2C8C3BE100EF3A9D /* RatesManager */,
+				DDEE600D2C8A452F00EF3A9D /* CurrencyVC.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		DDEE5FFB2C8A3F6F00EF3A9D /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE601F2C8C3BEF00EF3A9D /* WeatherManeger */,
+				DDEE60032C8A44ED00EF3A9D /* WeatherVC.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		DDEE5FFC2C8A3F8100EF3A9D /* Small */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE5FE92C8A23C300EF3A9D /* SmallMainCell.swift */,
+				DDEE5FEA2C8A23C300EF3A9D /* SmallMainCell.xib */,
+			);
+			path = Small;
+			sourceTree = "<group>";
+		};
+		DDEE5FFD2C8A3F9400EF3A9D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE5FF52C8A337B00EF3A9D /* Extensions */,
+				DDEE5FED2C8A298900EF3A9D /* Structs */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DDEE5FFE2C8A3FAD00EF3A9D /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE5FFF2C8A3FE100EF3A9D /* MediumMainCell.swift */,
+				DDEE60002C8A3FE100EF3A9D /* MediumMainCell.xib */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		DDEE601D2C8C308500EF3A9D /* CurrencyCell */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE60162C8C2B3900EF3A9D /* CurrencyVCTableViewCell.swift */,
+				DDEE60172C8C2B3900EF3A9D /* CurrencyVCTableViewCell.xib */,
+			);
+			path = CurrencyCell;
+			sourceTree = "<group>";
+		};
+		DDEE601E2C8C3BE100EF3A9D /* RatesManager */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE60112C8C134500EF3A9D /* RatesManager.swift */,
+				DDEE60132C8C240900EF3A9D /* ResultCurrency.swift */,
+			);
+			path = RatesManager;
+			sourceTree = "<group>";
+		};
+		DDEE601F2C8C3BEF00EF3A9D /* WeatherManeger */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE60202C8C3C0D00EF3A9D /* WeatherManager.swift */,
+			);
+			path = WeatherManeger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDEE5FE52C8A1F4800EF3A9D /* Build configuration list for PBXNativeTarget "vkTestBurnashev" */;
 			buildPhases = (
+				A18F64619E8C6AE912FCE24F /* [CP] Check Pods Manifest.lock */,
 				DDEE5FCD2C8A1F4700EF3A9D /* Sources */,
 				DDEE5FCE2C8A1F4700EF3A9D /* Frameworks */,
 				DDEE5FCF2C8A1F4700EF3A9D /* Resources */,
@@ -109,6 +286,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = DDEE5FC82C8A1F4700EF3A9D;
 			productRefGroup = DDEE5FD22C8A1F4700EF3A9D /* Products */;
@@ -126,12 +304,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDEE5FDE2C8A1F4800EF3A9D /* Assets.xcassets in Resources */,
+				DDEE5FF32C8A2D2800EF3A9D /* Localizable.xcstrings in Resources */,
+				DDEE60192C8C2B3900EF3A9D /* CurrencyVCTableViewCell.xib in Resources */,
 				DDEE5FE12C8A1F4800EF3A9D /* Base in Resources */,
+				DDEE60022C8A3FE100EF3A9D /* MediumMainCell.xib in Resources */,
+				DDEE5FEC2C8A23C300EF3A9D /* SmallMainCell.xib in Resources */,
 				DDEE5FDC2C8A1F4700EF3A9D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A18F64619E8C6AE912FCE24F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vkTestBurnashev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDEE5FCD2C8A1F4700EF3A9D /* Sources */ = {
@@ -139,8 +346,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDEE5FD92C8A1F4700EF3A9D /* ViewController.swift in Sources */,
+				DDEE600F2C8A452F00EF3A9D /* CurrencyVC.swift in Sources */,
 				DDEE5FD52C8A1F4700EF3A9D /* AppDelegate.swift in Sources */,
+				DDEE5FEB2C8A23C300EF3A9D /* SmallMainCell.swift in Sources */,
+				DDEE600B2C8A451A00EF3A9D /* GallowsVC.swift in Sources */,
+				DDEE60052C8A44ED00EF3A9D /* WeatherVC.swift in Sources */,
+				DDEE60182C8C2B3900EF3A9D /* CurrencyVCTableViewCell.swift in Sources */,
+				DDEE60012C8A3FE100EF3A9D /* MediumMainCell.swift in Sources */,
+				DDEE5FEF2C8A29A700EF3A9D /* AppsList.swift in Sources */,
+				DDEE60122C8C134500EF3A9D /* RatesManager.swift in Sources */,
+				DDEE60212C8C3C0D00EF3A9D /* WeatherManager.swift in Sources */,
+				DD9AABDB2C8C7A93009C42BD /* WeatherList.swift in Sources */,
+				DDEE60142C8C240900EF3A9D /* ResultCurrency.swift in Sources */,
 				DDEE5FD72C8A1F4700EF3A9D /* SceneDelegate.swift in Sources */,
+				DDEE5FF72C8A339000EF3A9D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +506,7 @@
 		};
 		DDEE5FE62C8A1F4800EF3A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B552DF9FBF8AA06ACFC6CF /* Pods-vkTestBurnashev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +535,7 @@
 		};
 		DDEE5FE72C8A1F4800EF3A9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA40583C5FC4BF58D6B44E51 /* Pods-vkTestBurnashev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
