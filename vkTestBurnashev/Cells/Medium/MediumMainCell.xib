@@ -85,6 +85,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="currency" width="1024" height="1024"/>
+        <image name="currency" width="991" height="925"/>
     </resources>
 </document>

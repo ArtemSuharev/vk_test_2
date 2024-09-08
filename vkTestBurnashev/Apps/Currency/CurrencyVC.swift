@@ -99,6 +99,8 @@ extension CurrencyVC: UITableViewDataSource, UITableViewDelegate {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CurrencyVCTableViewCell.identifier, for: indexPath) as? CurrencyVCTableViewCell else {
             fatalError("xib doesn't exist") }
         cell.configure(index: indexPath.row, data: ratesArray[indexPath.row])
+        cell.imageFlag.layer.cornerRadius = 25
+        cell.imageFlag.clipsToBounds = true
         return cell
     }
     

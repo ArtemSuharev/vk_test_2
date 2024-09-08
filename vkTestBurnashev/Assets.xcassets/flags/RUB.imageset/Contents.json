@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-российская-федерация-96.png",
+      "filename" : "rub.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-российская-федерация-96 1.png",
+      "filename" : "rub 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-российская-федерация-96 2.png",
+      "filename" : "rub 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

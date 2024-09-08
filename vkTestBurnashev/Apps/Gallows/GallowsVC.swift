@@ -68,7 +68,56 @@ class GallowsVC: UIViewController {
         
         label.text = NSLocalizedString("gallows", comment: "")
         startNewGame()
+        setButtons()
     
+    }
+    
+    private func setButtons() {
+        
+        let radius: CGFloat = 8
+        answerSymbol1.layer.cornerRadius = radius
+        answerSymbol2.layer.cornerRadius = radius
+        answerSymbol3.layer.cornerRadius = radius
+        answerSymbol4.layer.cornerRadius = radius
+        answerSymbol5.layer.cornerRadius = radius
+        answerSymbol6.layer.cornerRadius = radius
+        answerSymbol7.layer.cornerRadius = radius
+        answerSymbol8.layer.cornerRadius = radius
+        answerSymbol9.layer.cornerRadius = radius
+            
+        symbolButton1.layer.cornerRadius = radius
+        symbolButton2.layer.cornerRadius = radius
+        symbolButton3.layer.cornerRadius = radius
+        symbolButton4.layer.cornerRadius = radius
+        symbolButton5.layer.cornerRadius = radius
+        symbolButton6.layer.cornerRadius = radius
+        symbolButton7.layer.cornerRadius = radius
+        symbolButton8.layer.cornerRadius = radius
+        symbolButton9.layer.cornerRadius = radius
+        symbolButton10.layer.cornerRadius = radius
+        symbolButton11.layer.cornerRadius = radius
+        symbolButton12.layer.cornerRadius = radius
+        symbolButton13.layer.cornerRadius = radius
+        symbolButton14.layer.cornerRadius = radius
+        symbolButton15.layer.cornerRadius = radius
+        symbolButton16.layer.cornerRadius = radius
+        symbolButton17.layer.cornerRadius = radius
+        symbolButton18.layer.cornerRadius = radius
+        symbolButton19.layer.cornerRadius = radius
+        symbolButton20.layer.cornerRadius = radius
+        symbolButton21.layer.cornerRadius = radius
+        symbolButton22.layer.cornerRadius = radius
+        symbolButton23.layer.cornerRadius = radius
+        symbolButton24.layer.cornerRadius = radius
+        symbolButton25.layer.cornerRadius = radius
+        symbolButton26.layer.cornerRadius = radius
+        symbolButton27.layer.cornerRadius = radius
+        symbolButton28.layer.cornerRadius = radius
+        symbolButton29.layer.cornerRadius = radius
+        symbolButton30.layer.cornerRadius = radius
+        symbolButton31.layer.cornerRadius = radius
+        symbolButton32.layer.cornerRadius = radius
+        
     }
     
     private func startNewGame() {

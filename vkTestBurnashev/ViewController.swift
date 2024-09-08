@@ -126,6 +126,7 @@ extension ViewController {
             cell.configure(index: indexPath.row, data: appsArray[indexPath.row])
             cell.imageCell.layer.cornerRadius = 16
             cell.imageCell.clipsToBounds = true
+            cell.isUserInteractionEnabled = isExpand
             
             return cell
         } else {
@@ -135,6 +136,7 @@ extension ViewController {
             cell.configure(index: indexPath.row, data: appsArray[indexPath.row])
             cell.imageCell.layer.cornerRadius = 16
             cell.imageCell.clipsToBounds = true
+            cell.isUserInteractionEnabled = isExpand
             
             return cell
         }

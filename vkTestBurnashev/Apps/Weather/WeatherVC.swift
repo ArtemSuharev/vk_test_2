@@ -56,8 +56,6 @@ class WeatherVC: UIViewController {
     
     private func showResult(weather: WeatherList) {
         
-        print("weather = ", weather)
-        
         DispatchQueue.main.async {
             
             let description = weather.description
@@ -97,6 +95,10 @@ class WeatherVC: UIViewController {
                 self.backImage.image = UIImage(named: "fog")
                 self.frontImage.image = UIImage(systemName: "cloud.fog.fill")
                 self.frontImageShadow.image = UIImage(systemName: "cloud.fog.fill")
+            } else {
+                self.backImage.image = UIImage(named: "cloudy")
+                self.frontImage.image = UIImage(systemName: "cloud.sun.fill")
+                self.frontImageShadow.image = UIImage(systemName: "cloud.sun.fill")
             }
             
             let temp = weather.temp
@@ -107,7 +109,7 @@ class WeatherVC: UIViewController {
             }
             
             let wind = weather.wind
-            self.labelWind.text = String(wind) + " м/с"
+            self.labelWind.text = String(wind) + " " + NSLocalizedString("ms", comment: "")
         }
     }
     
@@ -137,6 +139,7 @@ extension WeatherVC {
                 preferredStyle: .alert)
             
             alert.addTextField{ (textField : UITextField!) -> Void in
+                textField.autocapitalizationType = .sentences
                 textField.placeholder = NSLocalizedString("city", comment: "")
             }
             
